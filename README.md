@@ -89,42 +89,48 @@ Follow these steps to run the project locally:
 Missing values were imputed using the mode for categorical variables and mean for numerical ones.
 
 **Encoding Categorical Data:**
-One-Hot Encoding for non-ordinal categorical features like fuel type, body type, transmission, etc.
-Label Encoding for ordinal categorical features such as engine type, number of cylinders, seating capacity, etc.
+- One-Hot Encoding for non-ordinal categorical features like fuel type, body type, transmission, etc.
+- Label Encoding for ordinal categorical features such as engine type, number of cylinders, seating capacity, etc.
 
-**Feature Selection**
+ ### Feature Selection
 Correlation Matrix & Heatmap: The relationships between numerical features like mileage, torque, length, and price were visualized using a correlation matrix to identify strong correlations and multicollinearity.
 
-**Model Training**
-Several regression models were trained and tested:
+### Model Training
+       Several regression models were trained and tested:
 
-**XGBoost Regressor:** Known for its performance on tabular data, this model was one of the top-performing models for car price prediction.
+       - **XGBoost Regressor:** Known for its performance on tabular data, this model was one of the top-performing models for car price prediction.
 
-**Random Forest Regressor:** An ensemble method that combines predictions from multiple decision trees to produce more accurate results.
+      - **Random Forest Regressor:** An ensemble method that combines predictions from multiple decision trees to produce more accurate results.
 
-**Linear Regression:** A basic approach that assumes a linear relationship between features and the target variable.
+      - **Linear Regression:** A basic approach that assumes a linear relationship between features and the target variable.
 
-**Decision Tree Regressor:** A model that splits the data into different branches based on feature values.
+      - **Decision Tree Regressor:** A model that splits the data into different branches based on feature values.
 
-**Hyperparameter** tuning was performed for all models to optimize performance, and the models were evaluated using cross-validation to avoid overfitting.
+      - **Hyperparameter** tuning was performed for all models to optimize performance, and the models were evaluated using cross-validation to avoid overfitting.
 
 ### Evaluation Metrics
 
 The models were compared using the following metrics:
 
 **Mean Squared Error (MSE):** Measures the average squared difference between the predicted and actual prices.
+
 **Mean Absolute Error (MAE):** Captures the average absolute difference between predicted and actual prices.
+
 **R-squared (R²):** Indicates the proportion of the variance in the target variable that is explained by the input features.
 
 ### Model Performance
 
 **XGBoost Regressor**
+
 **RMSE:** 434,041.70
+
 **R-squared:** 0.9369
 
 ### Streamlit App
 The Streamlit app was developed to make the model accessible to users for predicting car prices interactively. The app has the following features:
+
       - Users can input details like fuel type, transmission, mileage, engine size, and more.
+      
       - Based on the inputs, the model predicts the car price.
 
    ![Screenshot 2024-11-09 135928](https://github.com/user-attachments/assets/4579cde0-8851-4f67-ae8a-a42a8119bf68)
@@ -134,12 +140,17 @@ The Streamlit app was developed to make the model accessible to users for predic
 
 ### File Descriptions
 **app.py:** Contains the Streamlit app logic.
+
 **models/:** Trained models, scalers, and encoders.
+
 **data/:** Raw and processed datasets.
+
 **requirements.txt:** Lists the Python libraries required for the project.
+
 **notebooks/:** Jupyter notebooks used for data exploration and model training.
 
 ### Contributors
  **Name:** HARIPRAKASH .N
+ 
 For queries, email me at your **hariprakash3004@gmail.com**
 
