@@ -99,13 +99,17 @@ Correlation Matrix & Heatmap: The relationships between numerical features like 
 Several regression models were trained and tested:
 
 **XGBoost Regressor:** Known for its performance on tabular data, this model was one of the top-performing models for car price prediction.
+
 **Random Forest Regressor:** An ensemble method that combines predictions from multiple decision trees to produce more accurate results.
+
 **Linear Regression:** A basic approach that assumes a linear relationship between features and the target variable.
+
 **Decision Tree Regressor:** A model that splits the data into different branches based on feature values.
 
-Hyperparameter tuning was performed for all models to optimize performance, and the models were evaluated using cross-validation to avoid overfitting.
+**Hyperparameter** tuning was performed for all models to optimize performance, and the models were evaluated using cross-validation to avoid overfitting.
 
 ### Evaluation Metrics
+
 The models were compared using the following metrics:
 
 **Mean Squared Error (MSE):** Measures the average squared difference between the predicted and actual prices.
