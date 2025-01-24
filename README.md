@@ -126,4 +126,16 @@ The Streamlit app was developed to make the model accessible to users for predic
    ![Screenshot 2024-11-09 135928](https://github.com/user-attachments/assets/4579cde0-8851-4f67-ae8a-a42a8119bf68)
 
 
+  ![Screenshot 2024-11-09 140029](https://github.com/user-attachments/assets/b0ef29c2-ff50-49d7-9f18-a618ff2e666e)
+
+### File Descriptions
+**app.py:** Contains the Streamlit app logic.
+**models/:** Trained models, scalers, and encoders.
+**data/:** Raw and processed datasets.
+**requirements.txt:** Lists the Python libraries required for the project.
+**notebooks/:** Jupyter notebooks used for data exploration and model training.
+
+### Contributors
+ **Name:** HARIPRAKASH .N
+For queries, email me at your **hariprakash3004@gmail.com**
 
