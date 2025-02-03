@@ -120,11 +120,11 @@ The models were compared using the following metrics:
 
 ### Model Performance
 
-**XGBoost Regressor**
+**Random Forest Regressor**
 
 **RMSE:** 434,041.70
 
-**R-squared:** 0.9369
+**R-squared:** 0.9269
 
 ### Streamlit App
 The Streamlit app was developed to make the model accessible to users for predicting car prices interactively. The app has the following features:
